@@ -3,8 +3,10 @@ import { useState } from 'react';
 import Navbar from '@/components/Navbar';
 import ProjectCard from '@/components/ProjectCard';
 import ProjectModal from '@/components/ProjectModal';
+import FloatingCVButton from '@/components/FloatingCVButton';
+// import ProfileImage from '@/components/ProfileImage';
 import { motion } from 'framer-motion';
-import { EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline';
+import { EnvelopeIcon, PhoneIcon, DocumentArrowDownIcon } from '@heroicons/react/24/outline';
 import { projects } from '@/data/projects';
 import { experience } from '@/data/experience';
 import { education } from '@/data/education';
@@ -16,6 +18,7 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       <Navbar />
+      <FloatingCVButton />
       
       {/* Hero Section */}
       <section id="home" className="pt-20 min-h-screen flex items-center">
@@ -26,6 +29,15 @@ export default function Home() {
             transition={{ duration: 0.5 }}
             className="text-center"
           >
+            {/* <ProfileImage /> */}
+            <motion.h2 
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.2 }}
+              className="text-2xl sm:text-3xl font-medium text-gray-600 dark:text-gray-300 mb-4"
+            >
+              Muhammad Sani
+            </motion.h2>
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">
               Software Engineer & AI Specialist
             </h1>
@@ -34,12 +46,21 @@ export default function Home() {
               in software engineering, artificial intelligence, machine learning, and data science.
               Transforming complex problems into elegant, scalable solutions.
             </p>
-            <div className="flex justify-center gap-4">
+            <div className="flex justify-center gap-4 flex-wrap">
               <a href="#projects" className="btn-primary">
                 View Projects
               </a>
               <a href="#contact" className="btn-secondary">
                 Contact Me
+              </a>
+              <a 
+                href="/CV_Muhammad_Sani.pdf" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="btn-secondary flex items-center gap-2"
+              >
+                <DocumentArrowDownIcon className="h-5 w-5" />
+                Download CV
               </a>
             </div>
           </motion.div>
@@ -140,14 +161,14 @@ export default function Home() {
               <ProjectCard key={project.title} {...project} index={index} />
             ))}
           </div>
-          <div className="mt-12 text-center">
+          {/* <div className="mt-12 text-center">
             <button
               onClick={() => setIsModalOpen(true)}
               className="btn-primary"
             >
               View More Projects
             </button>
-          </div>
+          </div> */}
         </div>
       </section>
 
