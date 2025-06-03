@@ -7,36 +7,47 @@ export interface Experience {
 
 export const experience: Experience[] = [
   {
-    title: "Senior AI Engineer",
-    company: "Tech Innovations Inc.",
-    period: "2022 - Present",
-    description: [
-      "Led the development of AI-powered analytics platform serving 1M+ users",
-      "Implemented machine learning models achieving 95% accuracy in predictions",
-      "Mentored junior developers and conducted technical interviews",
-      "Optimized system performance reducing response time by 60%"
-    ]
-  },
-  {
-    title: "Machine Learning Engineer",
-    company: "Data Dynamics",
-    period: "2020 - 2022",
-    description: [
-      "Developed and deployed NLP models for text classification",
-      "Built real-time data processing pipelines handling 1TB+ daily",
-      "Collaborated with cross-functional teams to deliver ML solutions",
-      "Reduced model training time by 40% through optimization"
-    ]
-  },
-  {
     title: "Software Engineer",
-    company: "Digital Solutions",
-    period: "2018 - 2020",
+    company: "Century Information Systems Ltd.",
+    period: "2024 - Present",
     description: [
-      "Full-stack development of enterprise applications",
-      "Implemented CI/CD pipelines reducing deployment time by 50%",
-      "Designed and maintained RESTful APIs",
-      "Improved application performance by 30%"
+      "Developing and maintaining enterprise-level software solutions using modern technologies",
+      "Implementing RESTful APIs and microservices architecture for scalable applications",
+      "Collaborating with cross-functional teams to deliver high-quality software products",
+      "Participating in code reviews and implementing best practices for code quality"
     ]
-  }
+  },
+  {
+    title: "Data Science Intern",
+    company: "British Airways",
+    period: "2023 - 2024",
+    description: [
+      "Developed and deployed machine learning models for customer behavior analysis",
+      "Created data visualization dashboards for business intelligence reporting",
+      "Assisted in building ETL pipelines for processing large-scale flight data",
+      "Contributed to predictive maintenance models for aircraft systems"
+    ]
+  },
+  {
+    title: "Data Analyst",
+    company: "Quantum Analytics NG.",
+    period: "2022 - 2023",
+    description: [
+      "Conducted comprehensive data analysis to identify business trends and opportunities",
+      "Developed automated reporting systems using Python and SQL",
+      "Created interactive dashboards for key performance indicators",
+      "Collaborated with stakeholders to translate business requirements into analytical solutions"
+    ]
+  },
+  {
+    title: "Data Specialist",
+    company: "NYSC Nigeria",
+    period: "2020 - 2021",
+    description: [
+      "Managed and analyzed large datasets for government programs",
+      "Developed data collection and validation procedures",
+      "Created standardized reporting templates for program evaluation",
+      "Implemented data quality control measures and documentation"
+    ]
+  },
 ]; 

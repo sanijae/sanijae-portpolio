@@ -7,15 +7,27 @@ export interface Education {
 
 export const education: Education[] = [
   {
-    degree: "Master of Science in Computer Science",
-    school: "Stanford University",
-    period: "2016 - 2018",
-    focus: "Artificial Intelligence & Machine Learning"
+    degree: "Master of Science in Artificial Intelligence",
+    school: "Ahamadu Bello University, Zaria",
+    period: "2022 - 2025",
+    focus: "Artificial Intelligence & Machine Learning, Data Science and Analytics"
+  },
+  {
+    degree: "Master of Cyber Security",
+    school: "Digital Regenesys",
+    period: "2023",
+    focus: "Penetration Testing, Ethical Hacking, Network Security"
+  },
+  {
+    degree: "Data Science Professional",
+    school: "Simplilearn",
+    period: "2024",
+    focus: "Machine Learning, Data Analysis, Statistical Modeling, Big Data Analytics"
   },
   {
     degree: "Bachelor of Science in Computer Science",
-    school: "MIT",
-    period: "2012 - 2016",
+    school: "Umaru Musa Yaradua University Katsina",
+    period: "2016 - 2019",
     focus: "Software Engineering"
-  }
+  },
 ]; 

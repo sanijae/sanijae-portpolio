@@ -149,22 +149,22 @@ export default function Home() {
             </p>
             <div className="flex flex-col items-center space-y-4">
               <a
-                href="mailto:your.email@example.com"
+                href="mailto:muhammadsanijae@gmail.com"
                 className="flex items-center gap-2 text-blue-600 hover:text-blue-700 transition-colors"
               >
                 <EnvelopeIcon className="h-5 w-5" />
-                <span>your.email@example.com</span>
+                <span>muhammadsanijae@gmail.com</span>
               </a>
               <a
-                href="tel:+1234567890"
+                href="tel:+23463055417"
                 className="flex items-center gap-2 text-blue-600 hover:text-blue-700 transition-colors"
               >
                 <PhoneIcon className="h-5 w-5" />
-                <span>+1 (234) 567-890</span>
+                <span>+23463055417, +2348089878468</span>
               </a>
               <div className="flex gap-6 mt-4">
                 <a
-                  href="https://linkedin.com/in/your-profile"
+                  href="https://linkedin.com/in/sanijae"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
@@ -172,7 +172,7 @@ export default function Home() {
                   LinkedIn
                 </a>
                 <a
-                  href="https://github.com/your-username"
+                  href="https://github.com/sanijae"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
