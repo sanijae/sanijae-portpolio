@@ -1,6 +1,8 @@
 'use client'
+import { useState } from 'react';
 import Navbar from '@/components/Navbar';
 import ProjectCard from '@/components/ProjectCard';
+import ProjectModal from '@/components/ProjectModal';
 import { motion } from 'framer-motion';
 import { EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline';
 import { projects } from '@/data/projects';
@@ -9,6 +11,8 @@ import { education } from '@/data/education';
 import { skills } from '@/data/skills';
 
 export default function Home() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
   return (
     <main className="min-h-screen">
       <Navbar />
@@ -136,8 +140,22 @@ export default function Home() {
               <ProjectCard key={project.title} {...project} index={index} />
             ))}
           </div>
+          <div className="mt-12 text-center">
+            <button
+              onClick={() => setIsModalOpen(true)}
+              className="btn-primary"
+            >
+              View More Projects
+            </button>
+          </div>
         </div>
       </section>
+
+      {/* Project Modal */}
+      <ProjectModal 
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+      />
 
       {/* Contact Section */}
       <section id="contact" className="py-20 bg-gray-50 dark:bg-gray-800">

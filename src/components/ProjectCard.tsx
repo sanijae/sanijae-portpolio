@@ -1,6 +1,7 @@
 'use client'
 import { motion } from 'framer-motion';
 import { CodeBracketIcon, ArrowTopRightOnSquareIcon } from '@heroicons/react/24/outline';
+import Image from 'next/image';
 
 interface ProjectCardProps {
   title: string;
@@ -29,10 +30,11 @@ export default function ProjectCard({
       className="bg-white dark:bg-gray-900 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow"
     >
       <div className="relative h-48 overflow-hidden">
-        <img
+        <Image
           src={imageUrl}
           alt={title}
-          className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-300"
+          fill
+          className="object-cover transform hover:scale-105 transition-transform duration-300"
         />
       </div>
       <div className="p-6">
@@ -49,6 +51,7 @@ export default function ProjectCard({
           ))}
         </div>
         <div className="flex gap-4">
+          {githubUrl && githubUrl !== "" && 
           <a
             href={githubUrl}
             target="_blank"
@@ -57,7 +60,8 @@ export default function ProjectCard({
           >
             <CodeBracketIcon className="h-5 w-5" />
             <span>Code</span>
-          </a>
+          </a>}
+          {liveUrl && liveUrl !== "" &&
           <a
             href={liveUrl}
             target="_blank"
@@ -66,7 +70,7 @@ export default function ProjectCard({
           >
             <ArrowTopRightOnSquareIcon className="h-5 w-5" />
             <span>Live Demo</span>
-          </a>
+          </a>}
         </div>
       </div>
     </motion.div>
