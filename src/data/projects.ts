@@ -21,7 +21,7 @@ export const projects: Project[] = [
     description: "An advanced cloud storage and file management platform with real-time collaboration features. Includes secure file sharing, version control, automated backup, and intelligent file organization. Built with modern web technologies for optimal performance and user experience.",
     technologies: ["TypeScript", "React", "Tailwind CSS", "Appwrite", "Node.js", "Next.js 15", "WebSocket"],
     imageUrl: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2064&q=80",
-    githubUrl: "https://github.com/sanijae/File-Fusion",
+    githubUrl:  "", //"https://github.com/sanijae/File-Fusion",
     liveUrl: "https://file-fusion-one.vercel.app/sign-in"
   },
   {
