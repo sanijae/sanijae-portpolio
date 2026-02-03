@@ -9,7 +9,7 @@ export const education: Education[] = [
   {
     degree: "Master of Science in Artificial Intelligence",
     school: "Ahamadu Bello University, Zaria",
-    period: "2022 - 2025",
+    period: "2023 - Present",
     focus: "Artificial Intelligence & Machine Learning, Data Science and Analytics"
   },
   {
