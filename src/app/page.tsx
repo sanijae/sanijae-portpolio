@@ -11,6 +11,7 @@ import { projects } from '@/data/projects';
 import { experience } from '@/data/experience';
 import { education } from '@/data/education';
 import { skills } from '@/data/skills';
+// import { certifications } from '@/data/certifications';
 
 export default function Home() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -39,12 +40,12 @@ export default function Home() {
               Muhammad Sani
             </motion.h2>
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">
-              Software Engineer & AI Specialist
+              Software Engineer / DevSecOps / DevOps
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-300 mb-8 max-w-3xl mx-auto">
-              Passionate about building innovative solutions using cutting-edge technologies
-              in software engineering, artificial intelligence, machine learning, and data science.
-              Transforming complex problems into elegant, scalable solutions.
+              Software Engineer with 4+ years of experience building scalable full-stack and AI-driven systems.
+              Strong expertise in REST API design, data analysis, and cloud deployment.
+              Proven track record of developing applications serving 100k+ users and boosting system performance by 40%.
             </p>
             <div className="flex justify-center gap-4 flex-wrap">
               <a href="#projects" className="btn-primary">
@@ -94,6 +95,30 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Certifications Section (Commented out) */}
+      {/* <section id="certifications" className="py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="section-title">Certifications</h2>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            className="card"
+          >
+            <div className="flex flex-wrap gap-3 justify-center">
+              {certifications.map((cert) => (
+                <span
+                  key={cert}
+                  className="px-4 py-2 bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-200 rounded-lg font-medium"
+                >
+                  {cert}
+                </span>
+              ))}
+            </div>
+          </motion.div>
+        </div>
+      </section> */}
 
       {/* Experience Section */}
       <section id="experience" className="py-20">
@@ -195,12 +220,15 @@ export default function Home() {
                 <span>muhammadsanijae@gmail.com</span>
               </a>
               <a
-                href="tel:+23463055417"
+                href="tel:+2348089878468"
                 className="flex items-center gap-2 text-blue-600 hover:text-blue-700 transition-colors"
               >
                 <PhoneIcon className="h-5 w-5" />
-                <span>+23463055417, +2348089878468</span>
+                <span>+2348089878468</span>
               </a>
+              <p className="text-gray-600 dark:text-gray-400">
+                Nigeria | Open to Global Remote Roles
+              </p>
               <div className="flex gap-6 mt-4">
                 <a
                   href="https://linkedin.com/in/sanijae"

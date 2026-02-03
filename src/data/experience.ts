@@ -8,35 +8,33 @@ export interface Experience {
 export const experience: Experience[] = [
   {
     title: "Software Engineer",
-    company: "Century Information Systems Ltd.",
+    company: "Century Information Systems Ltd",
     period: "2024 - Present",
     description: [
-      "Developing and maintaining enterprise-level software solutions using modern technologies",
-      "Implementing RESTful APIs and microservices architecture for scalable applications",
-      "Collaborating with cross-functional teams to deliver high-quality software products",
-      "Participating in code reviews and implementing best practices for code quality"
-    ]
-  },
-  {
-    title: "Data Science Intern",
-    company: "British Airways",
-    period: "2023 - 2024",
-    description: [
-      "Developed and deployed machine learning models for customer behavior analysis",
-      "Created data visualization dashboards for business intelligence reporting",
-      "Assisted in building ETL pipelines for processing large-scale flight data",
-      "Contributed to predictive maintenance models for aircraft systems"
+      "Develop and maintain scalable software applications using modern full-stack technologies",
+      "Design and implement RESTful APIs and backend services",
+      "Collaborate with cross-functional remote teams to deliver high-quality features",
+      "Ensure code quality through reviews, testing, and best practices"
     ]
   },
   {
     title: "Data Analyst",
-    company: "Quantum Analytics NG.",
-    period: "2022 - 2023",
+    company: "Quantum Analytics NG (Remote)",
+    period: "2023 - 2024",
     description: [
-      "Conducted comprehensive data analysis to identify business trends and opportunities",
-      "Developed automated reporting systems using Python and SQL",
-      "Created interactive dashboards for key performance indicators",
-      "Collaborated with stakeholders to translate business requirements into analytical solutions"
+      "Extracted, cleaned, and analyzed large datasets to identify trends and insights",
+      "Built dashboards and automated reports using Power BI and Tableau",
+      "Supported data-driven decision-making across teams"
+    ]
+  },
+  {
+    title: "Software Engineering Intern (Backend & Frontend) / Data Scientist Intern",
+    company: "Remote",
+    period: "2024",
+    description: [
+      "Assisted in backend API development and database integration",
+      "Built responsive frontend interfaces using modern JavaScript frameworks",
+      "Supported data preprocessing, analysis, and model experimentation"
     ]
   },
   {
@@ -50,4 +48,4 @@ export const experience: Experience[] = [
       "Implemented data quality control measures and documentation"
     ]
   },
-]; 
+];

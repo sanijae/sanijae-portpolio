@@ -9,6 +9,22 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    title: "Equipment Leasing Registration Portal (ELRA)",
+    description: "Government registration portal for equipment leasing in Nigeria. Enables businesses to register, manage, and track equipment leasing agreements through a centralized digital platform.",
+    technologies: ["Angular", "TypeScript", "Laravel", "REST API", "Database"],
+    imageUrl: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+    githubUrl: "",
+    liveUrl: "https://app.elra.gov.ng/"
+  },
+  {
+    title: "Electronic Court Management System (ECMS)",
+    description: "Enterprise electronic court management system. Digitizes court operations, case management, and judicial workflows. Serves the ECMS and portal platforms for judges, staff, and stakeholders.",
+    technologies: ["Angular", "TypeScript", "Laravel", "REST API", "Database"],
+    imageUrl: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+    githubUrl: "",
+    liveUrl: "https://portal.fhc.gov.ng/"
+  },
+  {
     title: "Encare Healthcare Platform",
     description: "A comprehensive healthcare management system that streamlines patient care, enhances doctor-patient communication, and optimizes medical data management. Features include appointment scheduling, electronic health records, telemedicine integration, and AI-powered diagnosis assistance.",
     technologies: ["React", "TypeScript", "Next.js", "Appwrite", "OpenAI", "Tailwind CSS", "Node.js"],
@@ -47,6 +63,14 @@ export const projects: Project[] = [
     imageUrl: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2073&q=80",
     githubUrl: "",
     liveUrl: "https://360property-ten.vercel.app/"
+  },
+  {
+    title: "Brain Tumor Detection XAI",
+    description: "Explainable AI (XAI) system for brain tumor detection from medical imaging. Master's thesis project applying deep learning and interpretability techniques to support clinical decision-making.",
+    technologies: ["Python", "PyTorch", "Deep Learning", "XAI", "Medical Imaging", "Computer Vision"],
+    imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+    githubUrl: "",
+    liveUrl: ""
   },
   {
     title: "Vote Sure",

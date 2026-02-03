@@ -5,36 +5,70 @@ export interface SkillCategory {
 
 export const skills: SkillCategory[] = [
   {
-    title: 'Software Engineering',
+    title: 'Core',
     skills: [
-      'Full-Stack Development',
-      'System Architecture',
-      'API Design',
-      'DevOps',
-      'Cloud Computing',
-      'Microservices'
+      'Python',
+      'JavaScript',
+      'TypeScript',
+      'Java',
+      'PHP',
+      'C#',
+      'SQL'
     ]
   },
   {
-    title: 'AI & Machine Learning',
+    title: 'Frameworks & Libraries',
     skills: [
+      'Django',
+      'React',
+      'Angular',
+      'Vue',
+      'Laravel',
+      'Node.js'
+    ]
+  },
+  {
+    title: 'Databases',
+    skills: [
+      'PostgreSQL',
+      'MySQL',
+      'MongoDB',
+      'MSSQL'
+    ]
+  },
+  {
+    title: 'Cloud & DevOps',
+    skills: [
+      'AWS',
+      'Azure',
+      'Google Cloud',
+      'Docker',
+      'Git'
+    ]
+  },
+  {
+    title: 'Data & BI',
+    skills: [
+      'Power BI',
+      'Tableau',
+      'Python',
+      'ETL'
+    ]
+  },
+  {
+    title: 'AI & ML',
+    skills: [
+      'Machine Learning',
       'Deep Learning',
-      'Computer Vision',
       'NLP',
-      'Model Deployment',
-      'Reinforcement Learning',
-      'Neural Networks'
+      'PyTorch'
     ]
   },
   {
-    title: 'Data Science',
+    title: 'Methodologies',
     skills: [
-      'Data Analysis',
-      'Statistical Modeling',
-      'Big Data',
-      'Data Visualization',
-      'Predictive Analytics',
-      'Time Series Analysis'
+      'Agile',
+      'Scrum'
     ]
   }
-]; 
+];

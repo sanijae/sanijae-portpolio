@@ -30,4 +30,4 @@ export const education: Education[] = [
     period: "2016 - 2019",
     focus: "Software Engineering"
   },
-]; 
+];

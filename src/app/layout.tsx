@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Muhammad Sani | Portfolio | Software Engineer & AI Specialist",
-  description: "Portfolio showcasing expertise in software engineering, AI/ML, data science, and analytics",
+  title: "Muhammad Sani | Portfolio | Software Engineer / DevSecOps / DevOps",
+  description: "Software Engineer with 4+ years experience. Full-stack development, AI/ML, REST APIs, cloud deployment. Applications serving 100k+ users.",
 };
 
 export default function RootLayout({
