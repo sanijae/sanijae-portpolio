@@ -40,7 +40,7 @@ export default function Home() {
               Muhammad Sani
             </motion.h2>
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">
-              Software Engineer / DevSecOps / DevOps Engineer
+              Software Engineer (DevOps, DevSecOps, Data & AI)
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-300 mb-8 max-w-3xl mx-auto">
               Software Engineer with 4+ years of experience building scalable full-stack and AI-driven systems.
