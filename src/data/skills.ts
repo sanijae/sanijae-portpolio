@@ -20,7 +20,9 @@ export const skills: SkillCategory[] = [
     title: 'Frameworks & Libraries',
     skills: [
       'Django',
+      'FastAPI',
       'React',
+      'NextJS',
       'Angular',
       'Vue',
       'Laravel',
