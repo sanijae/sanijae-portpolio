@@ -9,75 +9,93 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: "Equipment Leasing Registration Portal (ELRA)",
-    description: "Government registration portal for equipment leasing in Nigeria. Enables businesses to register, manage, and track equipment leasing agreements through a centralized digital platform.",
-    technologies: ["Angular", "TypeScript", "Laravel", "REST API", "Database"],
-    imageUrl: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
-    githubUrl: "",
-    liveUrl: "https://app.elra.gov.ng/"
+    title: 'DATANA',
+    description:
+      'Intelligent Data Analytics Platform that automates data analysis and AI business insight generation. Scalable FastAPI REST APIs with PostgreSQL and Redis caching, Celery for long-running analytics and report generation, Docker and GitHub Actions CI/CD, and OpenAI for natural language data exploration.',
+    technologies: [
+      'Python',
+      'FastAPI',
+      'OpenAI',
+      'OCI',
+      'Docker',
+      'GitHub Actions',
+      'PostgreSQL',
+      'Redis',
+      'Celery',
+      'React'
+    ],
+    imageUrl:
+      'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80',
+    githubUrl: '',
+    liveUrl: 'https://www.getdatana.com/'
   },
   {
-    title: "Electronic Court Management System (ECMS)",
-    description: "Enterprise electronic court management system. Digitizes court operations, case management, and judicial workflows. Serves the ECMS and portal platforms for judges, staff, and stakeholders.",
-    technologies: ["Angular", "TypeScript", "Laravel", "REST API", "Database"],
-    imageUrl: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
-    githubUrl: "",
-    liveUrl: "https://portal.fhc.gov.ng/"
+    title: 'VOX Documents',
+    description:
+      'AI document intelligence platform supporting semantic search, chat, summarization, and voice interaction. FastAPI backend for document ingestion, vector search, and AI inference, with Celery workers for indexing and embeddings, Docker/GitHub Actions CI/CD, and OCI deployment with Prometheus and Grafana monitoring.',
+    technologies: [
+      'Python',
+      'FastAPI',
+      'OCI',
+      'Docker',
+      'GitHub Actions',
+      'PostgreSQL',
+      'Redis',
+      'Celery',
+      'React'
+    ],
+    imageUrl:
+      'https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80',
+    githubUrl: '',
+    liveUrl: 'https://www.voxdocument.com/'
   },
   {
-    title: "Encare Healthcare Platform",
-    description: "A comprehensive healthcare management system that streamlines patient care, enhances doctor-patient communication, and optimizes medical data management. Features include appointment scheduling, electronic health records, telemedicine integration, and AI-powered diagnosis assistance.",
-    technologies: ["React", "TypeScript", "Next.js", "Appwrite", "OpenAI", "Tailwind CSS", "Node.js"],
-    imageUrl: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-    githubUrl: "",
-    liveUrl: "https://encare-health-system.vercel.app/"
+    title: 'Healyng',
+    description:
+      'Multi-tenant telemedicine SaaS platform with secure Django backend APIs, PostgreSQL and Redis for session and data caching, and Celery workers for appointment reminders, notifications, and scheduled processing. Automated deployments via GitHub Actions CI/CD.',
+    technologies: [
+      'Python',
+      'Django',
+      'OpenAI',
+      'GitHub Actions',
+      'PostgreSQL',
+      'Redis',
+      'Celery',
+      'React'
+    ],
+    imageUrl:
+      'https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80',
+    githubUrl: '',
+    liveUrl: 'https://healy.ng/'
   },
   {
-    title: "File Fusion",
-    description: "An advanced cloud storage and file management platform with real-time collaboration features. Includes secure file sharing, version control, automated backup, and intelligent file organization. Built with modern web technologies for optimal performance and user experience.",
-    technologies: ["TypeScript", "React", "Tailwind CSS", "Appwrite", "Node.js", "Next.js 15", "WebSocket"],
-    imageUrl: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2064&q=80",
-    githubUrl:  "", //"https://github.com/sanijae/File-Fusion",
-    liveUrl: "https://file-fusion-one.vercel.app/sign-in"
+    title: 'Network Intrusion Detection System',
+    description:
+      'Machine learning model for detecting malicious network traffic.',
+    technologies: ['Python', 'TensorFlow', 'OpenCV', 'Scikit-learn', 'Pandas'],
+    imageUrl:
+      'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80',
+    githubUrl: '',
+    liveUrl: 'https://www.kaggle.com/code/msanijae/nismodel'
   },
   {
-    title: "DocConvertPro",
-    description: "An AI-powered document processing platform that automates document conversion, analysis, and management. Features include OCR, intelligent data extraction, automated categorization, and advanced search capabilities. Integrates with multiple document formats and cloud storage services.",
-    technologies: ["Python", "TensorFlow", "React", "Django", "MySQL", "Hugging Face", "PyTorch", "Docker"],
-    imageUrl: "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-    githubUrl: "https://github.com/yourusername/ai-analytics",
-    liveUrl: "https://docconvertpro-frontend.onrender.com"
+    title: 'Weed Detection & Classification',
+    description:
+      'Computer vision models for agricultural weed detection and image classification.',
+    technologies: ['Python', 'TensorFlow', 'OpenCV', 'Scikit-learn', 'Pandas'],
+    imageUrl:
+      'https://images.unsplash.com/photo-1625246333195-78d9c38ad449?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80',
+    githubUrl: '',
+    liveUrl: 'https://www.kaggle.com/code/msanijae/weed-detection-model'
   },
   {
-    title: "Career Connect",
-    description: "A modern job search and recruitment platform connecting talented professionals with top companies. Features include AI-powered job matching, resume parsing, interview scheduling, and real-time application tracking. Includes advanced analytics for both job seekers and recruiters.",
-    technologies: ["Node.js", "React", "JavaScript", "Firebase", "AWS", "MongoDB", "Express.js", "Redux"],
-    imageUrl: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-    githubUrl: "https://github.com/sanijae/Career-connect",
-    liveUrl: "https://career-connect-8w0x.onrender.com"
-  },
-  {
-    title: "360Property",
-    description: "A comprehensive real estate platform with AI-powered property management and listing features. Includes virtual tours, automated property valuation, tenant screening, and smart contract integration. Provides analytics and insights for property owners and real estate professionals.",
-    technologies: ["React", "JavaScript", "MongoDB", "Express", "Node.js", "TensorFlow", "WebRTC", "AWS"],
-    imageUrl: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2073&q=80",
-    githubUrl: "",
-    liveUrl: "https://360property-ten.vercel.app/"
-  },
-  {
-    title: "Brain Tumor Detection XAI",
-    description: "Explainable AI (XAI) system for brain tumor detection from medical imaging. Master's thesis project applying deep learning and interpretability techniques to support clinical decision-making.",
-    technologies: ["Python", "PyTorch", "Deep Learning", "XAI", "Medical Imaging", "Computer Vision"],
-    imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
-    githubUrl: "",
-    liveUrl: ""
-  },
-  {
-    title: "Vote Sure",
-    description: "A secure and transparent voting platform designed for educational institutions and organizations. Features include blockchain-based vote verification, real-time result tracking, multi-factor authentication, and comprehensive audit trails. Ensures fair and tamper-proof elections.",
-    technologies: ["Flutter", "Firebase", "Firebase Store", "Firebase Authentication", "Blockchain", "Dart", "Node.js"],
-    imageUrl: "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-    githubUrl: "https://github.com/sanijae/vote_sure",
-    liveUrl: ""
+    title: 'Brain Tumor Detection',
+    description:
+      'Deep learning models for MRI image classification using convolutional neural networks.',
+    technologies: ['Python', 'TensorFlow', 'OpenCV', 'Scikit-learn', 'Pandas'],
+    imageUrl:
+      'https://images.unsplash.com/photo-1559757175-5700dde675bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80',
+    githubUrl: '',
+    liveUrl: 'https://www.kaggle.com/code/msanijae/brain-tumor-detection'
   }
-]; 
+];

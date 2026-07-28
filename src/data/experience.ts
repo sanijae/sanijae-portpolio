@@ -7,45 +7,29 @@ export interface Experience {
 
 export const experience: Experience[] = [
   {
-    title: "Software Engineer",
-    company: "Century Information Systems Ltd",
-    period: "2024 - Present",
+    title: 'Software Engineer',
+    company: 'Century Information Systems Ltd',
+    period: 'Sep 2024 – Present',
     description: [
-      "Develop and maintain scalable software applications using modern full-stack technologies",
-      "Design and implement RESTful APIs and backend services",
-      "Collaborate with cross-functional remote teams to deliver high-quality features",
-      "Ensure code quality through reviews, testing, and best practices"
+      'Design and develop scalable REST APIs and backend services using Laravel and Angular.',
+      'Integrate AI-powered features that reduced manual processing time and improved user productivity.',
+      'Design secure and scalable backend services with Laravel, MySQL, and Linux.',
+      'Implement monitoring, logging, and performance optimization.',
+      'Collaborate with frontend developers to deliver production-ready features.',
+      'Optimized SQL queries, improving API response times by 35%.',
+      'Developed REST APIs supporting multiple enterprise applications.'
     ]
   },
   {
-    title: "Data Analyst",
-    company: "Quantum Analytics NG (Remote)",
-    period: "2023 - 2024",
+    title: 'Data Analyst',
+    company: 'Quantum Analytics NG',
+    period: 'Jan 2023 – Sep 2024',
     description: [
-      "Extracted, cleaned, and analyzed large datasets to identify trends and insights",
-      "Built dashboards and automated reports using Power BI and Tableau",
-      "Supported data-driven decision-making across teams"
+      'Built automated data processing and reporting workflows using Python and SQL.',
+      'Developed dashboards and analytical reports to support business decision-making.',
+      'Performed exploratory data analysis and predictive analytics on structured datasets.',
+      'Developed machine learning models for classification and prediction tasks.',
+      'Automated data preparation and feature engineering workflows.'
     ]
-  },
-  {
-    title: "Software Engineering Intern (Backend & Frontend) / Data Scientist Intern",
-    company: "Remote",
-    period: "2024",
-    description: [
-      "Assisted in backend API development and database integration",
-      "Built responsive frontend interfaces using modern JavaScript frameworks",
-      "Supported data preprocessing, analysis, and model experimentation"
-    ]
-  },
-  {
-    title: "Data Specialist",
-    company: "NYSC Nigeria",
-    period: "2020 - 2021",
-    description: [
-      "Managed and analyzed large datasets for government programs",
-      "Developed data collection and validation procedures",
-      "Created standardized reporting templates for program evaluation",
-      "Implemented data quality control measures and documentation"
-    ]
-  },
+  }
 ];

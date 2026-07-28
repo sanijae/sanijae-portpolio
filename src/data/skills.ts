@@ -5,72 +5,48 @@ export interface SkillCategory {
 
 export const skills: SkillCategory[] = [
   {
-    title: 'Core',
+    title: 'Languages',
+    skills: ['Python', 'PHP', 'JavaScript', 'SQL', 'Bash']
+  },
+  {
+    title: 'Backend',
+    skills: ['FastAPI', 'Django', 'Laravel', 'REST APIs']
+  },
+  {
+    title: 'Frontend',
+    skills: ['React', 'Next.js', 'Angular']
+  },
+  {
+    title: 'AI / ML',
     skills: [
-      'Python',
-      'JavaScript',
-      'TypeScript',
-      'Java',
-      'PHP',
-      'C#',
-      'SQL'
+      'OpenAI API',
+      'TensorFlow',
+      'Scikit-learn',
+      'OpenCV',
+      'Pandas',
+      'NumPy',
+      'Jupyter Notebooks'
     ]
   },
   {
-    title: 'Frameworks & Libraries',
-    skills: [
-      'Django',
-      'FastAPI',
-      'React',
-      'NextJS',
-      'Angular',
-      'Vue',
-      'Laravel',
-      'Node.js'
-    ]
+    title: 'Cloud',
+    skills: ['OCI', 'AWS', 'GCP']
   },
   {
     title: 'Databases',
-    skills: [
-      'PostgreSQL',
-      'MySQL',
-      'MongoDB',
-      'MSSQL'
-    ]
+    skills: ['PostgreSQL', 'MySQL', 'Redis', 'Celery']
   },
   {
-    title: 'Cloud & DevOps',
+    title: 'DevOps',
     skills: [
-      'AWS',
-      'Azure',
-      'Google Cloud',
       'Docker',
-      'Git'
-    ]
-  },
-  {
-    title: 'Data & BI',
-    skills: [
-      'Power BI',
-      'Tableau',
-      'Python',
-      'ETL'
-    ]
-  },
-  {
-    title: 'AI & ML',
-    skills: [
-      'Machine Learning',
-      'Deep Learning',
-      'NLP',
-      'PyTorch'
-    ]
-  },
-  {
-    title: 'Methodologies',
-    skills: [
-      'Agile',
-      'Scrum'
+      'GitHub Actions',
+      'Jenkins',
+      'Linux',
+      'Git',
+      'CI/CD',
+      'Grafana',
+      'Prometheus'
     ]
   }
 ];

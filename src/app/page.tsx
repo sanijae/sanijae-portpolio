@@ -1,21 +1,16 @@
 'use client'
-import { useState } from 'react';
 import Navbar from '@/components/Navbar';
 import ProjectCard from '@/components/ProjectCard';
-import ProjectModal from '@/components/ProjectModal';
 import FloatingCVButton from '@/components/FloatingCVButton';
-// import ProfileImage from '@/components/ProfileImage';
 import { motion } from 'framer-motion';
 import { EnvelopeIcon, PhoneIcon, DocumentArrowDownIcon } from '@heroicons/react/24/outline';
 import { projects } from '@/data/projects';
 import { experience } from '@/data/experience';
 import { education } from '@/data/education';
 import { skills } from '@/data/skills';
-// import { certifications } from '@/data/certifications';
+import { certifications } from '@/data/certifications';
 
 export default function Home() {
-  const [isModalOpen, setIsModalOpen] = useState(false);
-
   return (
     <main className="min-h-screen">
       <Navbar />
@@ -30,22 +25,22 @@ export default function Home() {
             transition={{ duration: 0.5 }}
             className="text-center"
           >
-            {/* <ProfileImage /> */}
             <motion.h2 
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
               className="text-2xl sm:text-3xl font-medium text-gray-600 dark:text-gray-300 mb-4"
             >
-              Muhammad Sani
+              Sani Muhammad Sani
             </motion.h2>
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">
-              Software Engineer (DevOps, DevSecOps, Data & AI)
+              Software Engineer | AI Engineer | Cloud & DevOps
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-300 mb-8 max-w-3xl mx-auto">
-              Software Engineer with 4+ years of experience building scalable full-stack and AI-driven systems.
-              Strong expertise in REST API design, data analysis, and cloud deployment.
-              Proven track record of developing applications serving 100k+ users and boosting system performance by 40%.
+              Software Engineer specializing in AI-powered backend systems, cloud infrastructure, and
+              scalable SaaS applications. Experienced building production APIs with FastAPI, Django, and
+              Laravel, integrating LLMs into real-world products, and deploying cloud-native applications
+              using Docker, OCI, AWS, and GitHub Actions.
             </p>
             <div className="flex justify-center gap-4 flex-wrap">
               <a href="#projects" className="btn-primary">
@@ -55,7 +50,7 @@ export default function Home() {
                 Contact Me
               </a>
               <a 
-                href="/CV_Muhammad_Sani.pdf" 
+                href="/CV_M_Sanijae.pdf" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="btn-secondary flex items-center gap-2"
@@ -96,8 +91,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Certifications Section (Commented out) */}
-      {/* <section id="certifications" className="py-20">
+      {/* Certifications Section */}
+      <section id="certifications" className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title">Certifications</h2>
           <motion.div
@@ -118,16 +113,16 @@ export default function Home() {
             </div>
           </motion.div>
         </div>
-      </section> */}
+      </section>
 
       {/* Experience Section */}
-      <section id="experience" className="py-20">
+      <section id="experience" className="py-20 bg-gray-50 dark:bg-gray-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title">Professional Experience</h2>
           <div className="space-y-12">
             {experience.map((job, index) => (
               <motion.div
-                key={job.title}
+                key={`${job.title}-${job.company}`}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
@@ -155,7 +150,7 @@ export default function Home() {
       </section>
 
       {/* Education Section */}
-      <section className="py-20 bg-gray-50 dark:bg-gray-800">
+      <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title">Education</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -178,7 +173,7 @@ export default function Home() {
       </section>
 
       {/* Projects Section */}
-      <section id="projects" className="py-20">
+      <section id="projects" className="py-20 bg-gray-50 dark:bg-gray-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title">Featured Projects</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -186,25 +181,11 @@ export default function Home() {
               <ProjectCard key={project.title} {...project} index={index} />
             ))}
           </div>
-          {/* <div className="mt-12 text-center">
-            <button
-              onClick={() => setIsModalOpen(true)}
-              className="btn-primary"
-            >
-              View More Projects
-            </button>
-          </div> */}
         </div>
       </section>
 
-      {/* Project Modal */}
-      <ProjectModal 
-        isOpen={isModalOpen}
-        onClose={() => setIsModalOpen(false)}
-      />
-
       {/* Contact Section */}
-      <section id="contact" className="py-20 bg-gray-50 dark:bg-gray-800">
+      <section id="contact" className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title">Get in Touch</h2>
           <div className="max-w-xl mx-auto">
@@ -220,11 +201,11 @@ export default function Home() {
                 <span>muhammadsanijae@gmail.com</span>
               </a>
               <a
-                href="tel:+2348089878468"
+                href="tel:+2348063055417"
                 className="flex items-center gap-2 text-blue-600 hover:text-blue-700 transition-colors"
               >
                 <PhoneIcon className="h-5 w-5" />
-                <span>+2348089878468</span>
+                <span>+234 8063055417</span>
               </a>
               <p className="text-gray-600 dark:text-gray-400">
                 Nigeria | Open to Global Remote Roles

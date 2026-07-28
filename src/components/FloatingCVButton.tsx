@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 export default function FloatingCVButton() {
   return (
     <motion.a
-      href="/CV_Muhammad_Sani.pdf"
+      href="/CV_M_Sanijae.pdf"
       target="_blank"
       rel="noopener noreferrer"
       className="fixed bottom-8 right-8 bg-blue-600 hover:bg-blue-700 text-white p-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 z-50 flex items-center gap-2"
