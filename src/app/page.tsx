@@ -34,13 +34,12 @@ export default function Home() {
               Sani Muhammad Sani
             </motion.h2>
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">
-              Software Engineer | AI Engineer | Cloud & DevOps
+              Software Engineer | AI/ML Engineer | Cloud & DevOps
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-300 mb-8 max-w-3xl mx-auto">
-              Software Engineer specializing in AI-powered backend systems, cloud infrastructure, and
-              scalable SaaS applications. Experienced building production APIs with FastAPI, Django, and
-              Laravel, integrating LLMs into real-world products, and deploying cloud-native applications
-              using Docker, OCI, AWS, and GitHub Actions.
+              Software Engineer specializing in backend systems, AI-powered products, cloud infrastructure, and
+              scalable SaaS applications. Experienced building production systems, APIs, integrating LLMs into real-world products, and deploying cloud-native applications
+              using modern technologies.
             </p>
             <div className="flex justify-center gap-4 flex-wrap">
               <a href="#projects" className="btn-primary">
@@ -50,7 +49,7 @@ export default function Home() {
                 Contact Me
               </a>
               <a 
-                href="/CV_M_Sanijae.pdf" 
+                href="/CV_Sanijae.pdf" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="btn-secondary flex items-center gap-2"
