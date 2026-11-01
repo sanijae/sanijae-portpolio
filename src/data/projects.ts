@@ -11,7 +11,7 @@ export const projects: Project[] = [
   {
     title: 'DATANA',
     description:
-      'Intelligent Data Analytics Platform that automates data analysis and AI business insight generation. Scalable FastAPI REST APIs with PostgreSQL and Redis caching, Celery for long-running analytics and report generation, Docker and GitHub Actions CI/CD, and OpenAI for natural language data exploration.',
+      'Datana is an AI-powered data analytics platform that transforms spreadsheets and database data into actionable insights, interactive charts, forecasts, and executive-ready reports. Ask questions in plain English, uncover trends, and make smarter business decisions without needing SQL or Python skills',
     technologies: [
       'Python',
       'FastAPI',
@@ -32,7 +32,7 @@ export const projects: Project[] = [
   {
     title: 'VOX Documents',
     description:
-      'AI document intelligence platform supporting semantic search, chat, summarization, and voice interaction. FastAPI backend for document ingestion, vector search, and AI inference, with Celery workers for indexing and embeddings, Docker/GitHub Actions CI/CD, and OCI deployment with Prometheus and Grafana monitoring.',
+      'VoxDocument is an AI-powered document management and automation platform that helps users create, process, and organize documents more efficiently, reducing manual work and streamlining everyday workflows.',
     technologies: [
       'Python',
       'FastAPI',
@@ -50,9 +50,9 @@ export const projects: Project[] = [
     liveUrl: 'https://www.voxdocument.com/'
   },
   {
-    title: 'Healyng',
+    title: 'HealyNG',
     description:
-      'Multi-tenant telemedicine SaaS platform with secure Django backend APIs, PostgreSQL and Redis for session and data caching, and Celery workers for appointment reminders, notifications, and scheduled processing. Automated deployments via GitHub Actions CI/CD.',
+      'Healy is an AI-powered healthcare assistant that answers patients on WhatsApp, books and confirms appointments directly in your clinic system, and seamlessly hands sensitive conversations over to your team when needed.',
     technologies: [
       'Python',
       'Django',
