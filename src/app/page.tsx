@@ -34,10 +34,10 @@ export default function Home() {
               Sani Muhammad Sani
             </motion.h2>
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">
-              Building Intelligent Software. Automating Possibilities.
+              Software Engineer | AI Solutions Engineer | AI Automation Engineer | AI/ML Engineer
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-300 mb-8 max-w-3xl mx-auto">
-              I'm Sani Muhammad Sani, a Software Engineer specializing in AI Automation, AI/ML Engineering, and Backend Development. I build scalable applications, intelligent systems, and AI-powered solutions that streamline processes and solve real-world problems. With a strong foundation in software engineering and practical experience integrating artificial intelligence into applications, I'm passionate about creating innovative, efficient, and impactful technology solutions.
+              I'm a Software Engineer and AI Solutions Engineer specializing in AI automation, machine learning, backend development, and intelligent software solutions. I build scalable applications, integrate Large Language Models (LLMs) and AI APIs, develop intelligent automation systems, and design reliable backend architectures that solve real-world problems. My goal is to transform ideas into practical, scalable, and AI-powered solutions that drive business efficiency and innovation.
             </p>
             <div className="flex justify-center gap-4 flex-wrap">
               <a href="#projects" className="btn-primary">
